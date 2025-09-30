@@ -1,22 +1,91 @@
 {
-    "MyTask1": {},
-    "MyTask2": {},
-    "MyTask3": {},
-    "MyTask4": {
-        "recognition": "Custom",
-        "custom_recognition": "my_reco_222",
-        "action": "Custom",
-        "custom_action": "my_action_111"
+    "start": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "expected": [
+                    "驾驶席"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {}
+        },
+        "__mpe_code": {
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "next": [
+            "镜像迷宫"
+        ]
     },
-    "t01": {
-        "recognition": "OCR",
-        "expected": "文件传输助手",
-        "action": "Click",
-        "next": ["t02"]
+    "镜像迷宫": {
+        "recognition": {
+            "type": "TemplateMatch",
+            "param": {
+                "template": [
+                    "jxmg.png"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {}
+        },
+        "__mpe_code": {
+            "position": {
+                "x": 290,
+                "y": 0
+            }
+        },
+        "next": [
+            "进入_01"
+        ]
     },
-    "t02": {
-        "recognition": "OCR",
-        "expected": "发送",
-        "action": "Click"
+    "进入_01": {
+        "recognition": {
+            "type": "TemplateMatch",
+            "param": {
+                "template": [
+                    "enter_01.png"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {}
+        },
+        "__mpe_code": {
+            "position": {
+                "x": 580,
+                "y": 0
+            }
+        },
+        "next": [
+            "进入_02"
+        ]
+    },
+    "进入_02": {
+        "recognition": {
+            "type": "TemplateMatch",
+            "param": {
+                "template": [
+                    "enter_02.png"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {}
+        },
+        "__mpe_code": {
+            "position": {
+                "x": 870,
+                "y": 0
+            }
+        }
     }
 }
