@@ -114,7 +114,7 @@ Win10 或者 Win11 系统自带了一份 "Python"，但它其实只是一个安�
 
 **请仔细阅读文档**，你无视了前面步骤的报错。我不想解释了，请再把本文档仔细阅读一遍！
 
-## 鸣谢
+## 鸣谢 
 
 本项目由 **[MaaFramework](https://github.com/MaaXYZ/MaaFramework)** 强力驱动！
 
