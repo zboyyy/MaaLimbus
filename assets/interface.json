@@ -37,7 +37,7 @@
     "task": [
         {
             "name": "普通任务",
-            "entry": "MyTask1"
+            "entry": "t01"
         },
         {
             "name": "选项任务",
